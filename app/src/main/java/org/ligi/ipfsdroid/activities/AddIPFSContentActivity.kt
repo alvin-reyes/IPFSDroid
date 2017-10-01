@@ -7,8 +7,6 @@ import android.os.Bundle
 import io.ipfs.kotlin.IPFS
 import okio.Okio
 import org.ligi.ipfsdroid.InputStreamProvider
-import org.ligi.ipfsdroid.handleSendStreamWithPermissionCheck
-import org.ligi.ipfsdroid.onRequestPermissionsResult
 import org.ligi.kaxt.loadImage
 import permissions.dispatcher.NeedsPermission
 import permissions.dispatcher.RuntimePermissions
