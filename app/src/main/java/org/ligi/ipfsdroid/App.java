@@ -1,6 +1,8 @@
 package org.ligi.ipfsdroid;
 
 import android.app.Application;
+import org.ligi.ipfsdroid.di.AppComponent;
+import org.ligi.ipfsdroid.di.AppModule;
 import org.ligi.tracedroid.TraceDroid;
 
 public class App extends Application {
